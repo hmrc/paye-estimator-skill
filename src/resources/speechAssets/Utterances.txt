@@ -1,0 +1,52 @@
+CalculationModeIntent {mode}
+CalculationModeIntent {mode} pay
+CalculationModeIntent {mode} rate
+CalculationModeIntent on {mode} pay
+CalculationModeIntent on {mode} rate
+CalculationModeIntent on my {mode} pay
+CalculationModeIntent on my {mode} rate
+CalculationModeIntent based on {mode} pay
+CalculationModeIntent based on {mode} rate
+CalculationModeIntent based on my {mode} pay
+CalculationModeIntent based on my {mode} rate
+CalculationModeIntent I get paid {mode}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF}
+TaxCodeIntent {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF} {taxCodeDigitG}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF}
+TaxCodeIntent it is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF} {taxCodeDigitG}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF}
+TaxCodeIntent my code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF} {taxCodeDigitG}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF}
+TaxCodeIntent my tax code is {taxCodeDigitA} {taxCodeDigitB} {taxCodeDigitC} {taxCodeDigitD} {taxCodeDigitE} {taxCodeDigitF} {taxCodeDigitG}
+AmountPaidIntent {pounds} {pence}
+AmountPaidIntent {pounds} pounds {pence}
+AmountPaidIntent {pounds} pounds {pence} pence
+AmountPaidIntent {pounds} pounds {pence} pee
+AmountPaidIntent {pounds} pounds and {pence} pence
+AmountPaidIntent {pounds} pounds and {pence} pee
+HoursWorkedIntent {hours}
+HoursWorkedIntent {hours} hours
+HoursWorkedIntent I do {hours} hours a week
+HoursWorkedIntent I work {hours} hours a week
+HoursWorkedIntent I do {hours} hours per week
+HoursWorkedIntent I work {hours} hours per week
+HoursWorkedIntent I do {hours} hours each week
+HoursWorkedIntent I work {hours} hours each week
+NotKnownIntent I don't know
+NotKnownIntent don't know

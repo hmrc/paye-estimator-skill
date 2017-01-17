@@ -1,0 +1,24 @@
+{
+  "name": "paye-estimator-ivr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmrc/paye-estimator-ivr.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hmrc/paye-estimator-ivr/issues"
+  },
+  "homepage": "https://github.com/hmrc/paye-estimator-ivr#readme",
+  "dependencies": {
+    "alexa-sdk": "^1.0.6",
+    "paye-estimator-js": "file:src/resources/paye-estimator/paye-estimator-js-0.1.0.tgz"
+  }
+}

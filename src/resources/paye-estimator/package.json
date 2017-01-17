@@ -1,0 +1,20 @@
+{
+  "name": "paye-estimator-js",
+  "version": "0.1.0",
+  "description": "A basic PAYE tax estimation calculator JavaScript library",
+  "main": "paye-estimator-fastopt.js",
+  "scripts": {
+    "test": "sbt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hmrc/paye-estimator.git"
+  },
+  "keywords": [],
+  "author": "HMRC",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/hmrc/paye-estimator/issues"
+  },
+  "homepage": "https://github.com/hmrc/paye-estimator#readme"
+}

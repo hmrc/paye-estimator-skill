@@ -1,0 +1,84 @@
+{
+  "intents": [
+    {
+      "intent": "CalculationModeIntent",
+      "slots": [
+        {
+          "name": "mode",
+          "type": "LIST_OF_MODES"
+        }
+      ]
+    },
+    {
+      "intent": "TaxCodeIntent",
+      "slots": [
+        {
+          "name": "taxCodeDigitA",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitB",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitC",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitD",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitE",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitF",
+          "type": "LETTER_OR_NUMBER"
+        },
+        {
+          "name": "taxCodeDigitG",
+          "type": "LETTER_OR_NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "AmountPaidIntent",
+      "slots": [
+        {
+          "name": "pounds",
+          "type": "AMAZON.NUMBER"
+        },
+        {
+          "name": "pence",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "HoursWorkedIntent",
+      "slots": [
+        {
+          "name": "hours",
+          "type": "AMAZON.NUMBER"
+        }
+      ]
+    },
+    {
+      "intent": "NotKnownIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.YesIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.NoIntent",
+      "slots": []
+    },
+    {
+      "intent": "AMAZON.HelpIntent",
+      "slots": []
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+To create local npm module:
+
+npm pack
+
+To install local module:
+
+npm install ../path/to/your/npm/packagename-version.tgz
